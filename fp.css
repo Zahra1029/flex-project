@@ -1,0 +1,252 @@
+@import url(http://awebfont.ir/css?id=1116);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "b yekan",tahoma,arial;
+}
+.containermain{
+    margin: 0 auto;
+    width: 1250px;
+}
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.group1{
+    width: 200px;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.item1{
+    background-color: #288ED9;
+     color: white;
+    border-radius: 20px;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 10px;
+    
+    
+}
+.item2{
+    color: #288ED9;
+    
+}
+.group2{
+    width: 800px;
+    display: flex;
+     justify-content: flex-end;
+    align-items: center;
+     color: #777777;
+}
+.group2 div{
+    width: 150px;
+    margin: 0 20px;
+}
+.firstpart{
+    height: 600px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.first1{
+    width: 60%;
+    padding-right: 20px;
+}
+
+.first2{
+    width: 40%;
+    text-align: right;
+    padding-top: 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+}
+.first2 h2{
+    color: #288ED9;
+    margin-bottom: 15px;
+}
+.blue{
+    color: #288ED9;
+    margin-bottom: 15px;
+    
+}
+.first2 p{
+    text-align: justify
+}
+.table{
+    width: 1250px;
+    height: 600px;
+    margin: auto;
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);
+    display: flex;
+    flex-direction: column;   
+}
+.table h2{
+    text-align: center;
+    margin: 40px 0;
+}
+.columnhouse{
+    border: 1px solid #777777;
+    width:300px;
+    height: 400px;
+    margin: 10px;
+    padding: 30px 15px 20px;
+    text-align: justify;
+    font-size: 13px;
+    border-radius: 8px;
+    position: relative;
+}
+.columnhouse h3{
+    background-color: #288ED9;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    margin: auto;
+    right: 0;
+    left: 0;
+
+}
+
+.columns{
+    display: flex;
+   justify-content: center;
+    align-items: flex-end;
+}
+.hastabri{
+     height: 600px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.hastabri2{
+    width: 50%;
+    padding-left: 50px; 
+}
+
+.hastabri1{
+    width: 30%;
+    text-align: right;
+    padding-top: 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+    align-self: stretch;
+}
+.hastabri1 h2{
+    color: #288ED9;
+}
+.hastabritype{
+     height: 600px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+    
+}
+.hastabritype1{
+    width: 50%;
+    padding-right: 50px;
+     
+}
+
+.hastabritype2{
+    width: 30%;
+    text-align: right;
+    padding-top: 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hastabritype h2{
+    color: #288ED9;
+}
+.sharing{
+     height: 600px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.sharing2{
+    width: 50%;
+   padding-left: 50px;  
+}
+
+.sharing1{
+    width: 30%;
+    text-align: right;
+    padding-top: 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+    
+}
+.sharing1 h2{
+    color: #288ED9;
+}
+.sharing p{
+    text-align: justify;
+}
+.buy{
+     height: 600px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.buy1{
+    width: 50%;
+    padding-right: 50px;
+    height: 600px;
+    
+     
+}
+
+.buy2{
+    width: 30%;
+    text-align: right;
+    padding-top: 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buy2 h2{
+    color: #288ED9;
+}
+buy2 p{
+    text-align: justify;
+}
+.footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    color: #777777;
+    display: flex;
+}
+.photo i{
+    font-size: 20px;
+    margin: 50px 5px 15px;
+}
